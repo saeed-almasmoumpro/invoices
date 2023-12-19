@@ -1,0 +1,7 @@
+.remove-btn {
+    display: none;
+  }
+  tr:not(:first-child) .remove-btn {
+    display: table-cell;
+  }
+

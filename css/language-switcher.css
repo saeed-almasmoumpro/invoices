@@ -1,0 +1,28 @@
+.language-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .language-switcher a {
+    display: block;
+    width: 30px;
+    height: 20px;
+    margin: 0 10px;
+  }
+  
+  .language-switcher .flag-icon {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  
+  .language-switcher .flag-icon-us {
+    background-image: url('/images/flags/us.svg');
+  }
+  
+  .language-switcher .flag-icon-sa {
+    background-image: url('/images/flags/sa.svg');
+  }
